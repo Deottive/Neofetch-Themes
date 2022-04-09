@@ -1,10 +1,7 @@
-# Neofetch themes 
+# Neofetch themes 🖌️
 This is a repository with some custom themes and config which can make your terminal shine. These themes were *made by* [CHICK2D](https://github.com/Chick2D) and *tweaked by* me. 
 
 ![image](https://user-images.githubusercontent.com/71910027/162574902-7bab349e-7f53-4f8f-94ac-a03140f18078.png)
-
-
-There are many different varients of the theme available, I hope you like them and dont forgetting giving some love to Chick2D
 
 
 ## Standard Themes 🏛️
@@ -24,3 +21,29 @@ There are many different varients of the theme available, I hope you like them a
 ![image](https://user-images.githubusercontent.com/71910027/162574756-78b655bf-f11a-42e4-9097-cca1b9d136f1.png)
 ### Minimal Colors 🟪
 ![image](https://user-images.githubusercontent.com/71910027/162574744-1dfaf7e0-1744-45b8-8605-bb673e2e1ebf.png)
+
+
+## Installation Steps 📶
+
+### Know what you are doing ⌨️
+1. Clone the Repository 
+2. Make the Check.sh file executable 
+3. Choose the theme <sub>(in the mind actually)</sub> from Standard and Minimal 
+4. Move to the directory | Minimal | Standard |
+5. copy the file to the config file for neofetch 
+
+### Commands 🎬
+```
+git clone https://github.com/Deottive/Neofetch-Themes.git
+cd Neofetch-Themes
+chmod 777 ./check.sh
+```
+- Now choose the theme you liked 
+
+``` 
+cd  Minimal/
+ls
+cp minimalicons.conf ~/.config/neofetch/config.conf
+```
+- These commands is for minimalicon themes and you can change this to your favourite theme 
+- Now change the minimalicons to your favourite theme and keep rest the same.
